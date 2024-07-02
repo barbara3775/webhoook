@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = process.env.PORT || 3000;  // Render proporciona el puerto a través de la variable de entorno PORT
+const port = process.env.PORT || 8443;  // Render proporciona el puerto a través de la variable de entorno PORT
 
 const token = '5881769745:AAFiecIBFXB7lIJXhf3N1XP4TPc6uc4ZOjU';
 
